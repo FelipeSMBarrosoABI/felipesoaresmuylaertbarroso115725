@@ -1,0 +1,1 @@
+<!-- TODO: Add Spring Boot parent, dependencies (web, security, data-jpa, flyway, actuator, websocket, openapi, bucket4j, minio client), plugins. -->

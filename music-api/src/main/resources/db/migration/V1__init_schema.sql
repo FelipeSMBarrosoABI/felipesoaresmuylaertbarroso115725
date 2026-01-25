@@ -1,0 +1,1 @@
+-- TODO: Create tables: artist, album, artist_album, album_cover, app_user, refresh_token, regional

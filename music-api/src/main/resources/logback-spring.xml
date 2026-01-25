@@ -1,0 +1,6 @@
+<!-- TODO: configure logging -->
+<configuration>
+  <root level="INFO">
+    <appender-ref ref="CONSOLE" />
+  </root>
+</configuration>

@@ -1,0 +1,1 @@
+-- TODO: Seed artists/albums examples and N:N relations
