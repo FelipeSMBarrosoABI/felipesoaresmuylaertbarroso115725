@@ -1,3 +1,17 @@
 package br.com.seplag.musicapi.api.v1.dto.auth;
 
-public class TokenResponse { /* TODO */ }
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class TokenResponse {
+    private String accessToken;
+    private String refreshToken;
+    private String tokenType;
+    private Long expiresIn;
+}

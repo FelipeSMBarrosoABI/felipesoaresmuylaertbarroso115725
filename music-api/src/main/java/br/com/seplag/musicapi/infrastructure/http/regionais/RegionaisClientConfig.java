@@ -1,3 +1,12 @@
 package br.com.seplag.musicapi.infrastructure.http.regionais;
 
-public class RegionaisClientConfig { /* TODO */ }
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Data
+@Component
+@ConfigurationProperties(prefix = "app.regionais")
+public class RegionaisClientConfig {
+    private String url;
+}
